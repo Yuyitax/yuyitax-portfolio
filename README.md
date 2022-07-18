@@ -1,30 +1,8 @@
-# 02 Advanced CSS: Portfolio
+# Yuyitax Full Stack Portfolio
 
-## Your Task
+In this challenge I will demonstrate what I've learned in CSS and HTML so far. This website is fully responsive for any screens. 
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
-
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
-
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
-
-
-## User Story
-
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-
-
-## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+## Criteria needed to complete this challenge
 
 ```
 GIVEN I need to sample a potential employee's previous work
@@ -43,64 +21,51 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 
+## Credit/ Usage
+
+The animated text at the end of the page was found using google. All credit goes to Álvaro from codepen.io: [Link to the source](https://codepen.io/alvarotrigo/pen/PoKMyNO)
+
+# Animated tex CSS
+
+  .animated-text {
+    background-image: linear-gradient(
+      -225deg,
+      #231557 1%,
+      #44107a 29%,
+      #9e1a94 70%,
+      #00ffbb 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s reverse infinite;
+    display: inline-block;
+        font-size: 7rem;
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  # Hamburger Menu
+  All rights for the Hamburger menu were learned using youtube. [This is the direct link to the youtube video](https://www.youtube.com/watch?v=flItyHiDm7E)
+
+
 ## Mock-Up
 
-The following animation shows the web application's appearance and functionality:
+The following animation shows the web application's appearance and functionality. These images will mock up the function of the sticky menu as you go to the various areas of the page. Please note that both images below are a combiation of multiple screenshots.
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![This image shows the features shown on Desktop mode](./assets/images/yuyitax-portfolio-desktop-view.jpg)
+
+![This image shows the features shown on Mobile mode](./assets/images/yuyitax-portfolio-mobile-view.jpg)
 
 
-## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Cristina Yunes. All Rights Reserved.
