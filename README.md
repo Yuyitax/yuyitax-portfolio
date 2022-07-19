@@ -23,9 +23,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Credit/ Usage
 
-The animated text at the end of the page was found using google. All credit goes to Álvaro from codepen.io: [Link to the source](https://codepen.io/alvarotrigo/pen/PoKMyNO)
+The animated text at the end of the page and the hamburger menu were both found on google. I manipulated the code to fit it withing my design. 
 
 # Animated tex CSS
+
+For this code All credit goes to Álvaro from codepen.io: [Link to the source](https://codepen.io/alvarotrigo/pen/PoKMyNO)
 
   .animated-text {
     background-image: linear-gradient(
