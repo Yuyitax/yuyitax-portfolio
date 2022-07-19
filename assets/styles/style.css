@@ -418,10 +418,6 @@ footer {
     color: var(--active-link);
   }
 
-  .animated-text {
-    display: none;
-  }
-
   .contact-right-icon img {
     width: auto;
     height: 1.5rem;
