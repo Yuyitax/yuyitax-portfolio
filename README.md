@@ -2,7 +2,7 @@
 
 In this challenge I will demonstrate what I've learned in CSS and HTML so far. This website is fully responsive for any screens. 
 
-## Criteria needed to complete this challenge
+# Criteria needed to complete this challenge
 
 ```
 GIVEN I need to sample a potential employee's previous work
@@ -21,11 +21,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 
-## Credit/ Usage
+# Credit/ Usage
 
 The animated text at the end of the page and the hamburger menu were both found on google. I manipulated the code to fit it withing my design. 
 
-# Animated tex CSS
+## Animated tex CSS
 
 For this code All credit goes to Álvaro from codepen.io: [Link to the source](https://codepen.io/alvarotrigo/pen/PoKMyNO)
 
@@ -56,11 +56,11 @@ For this code All credit goes to Álvaro from codepen.io: [Link to the source](h
     }
   }
 
-  # Hamburger Menu
+  ## Hamburger Menu
   All rights for the Hamburger menu were learned using youtube. [This is the direct link to the youtube video](https://www.youtube.com/watch?v=flItyHiDm7E)
 
 
-## Mock-Up
+# Mock-Up
 
 The following animation shows the web application's appearance and functionality. These images will mock up the function of the sticky menu as you go to the various areas of the page. Please note that both images below are a combiation of multiple screenshots.
 
@@ -68,6 +68,8 @@ The following animation shows the web application's appearance and functionality
 
 ![This image shows the features shown on Mobile mode](./assets/images/yuyitax-portfolio-mobile-view.jpg)
 
+
+ **Please visit the final product here: [View my portfolio](https://yuyitax.github.io/02-css-challenge/)
 
 
 © 2022 Cristina Yunes. All Rights Reserved.
